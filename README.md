@@ -45,7 +45,15 @@ This is a beginner-friendly DevOps project that demonstrates how to build, versi
 
 ## 📸 Website Preview
 
-![Portfolio Screenshot](assets/screenshot.png)
+![Portfolio Screenshot](assets/portfolio.png)
+
+---
+
+---
+
+## 📸 GitHub Actions Preview
+
+![Portfolio Screenshot](assets/github_actions.png)
 
 ---
 
