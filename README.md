@@ -47,7 +47,6 @@ This is a beginner-friendly DevOps project that demonstrates how to build, versi
 
 ![Portfolio Screenshot](assets/portfolio.png)
 
----
 
 ---
 
