@@ -52,7 +52,7 @@ This is a beginner-friendly DevOps project that demonstrates how to build, versi
 
 ## 📸 GitHub Actions Preview
 
-![Portfolio Screenshot](assets/github_actions.png)
+![GitHub Actions Screenshot](assets/github_actions.png)
 
 ---
 
