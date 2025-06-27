@@ -4,58 +4,111 @@ This is a beginner-friendly DevOps project that demonstrates how to build, versi
 
 ---
 
-## 📌 Project Structure
+## 🌟 Project Goals
 
-Static Website on GitHub Pages/
-├── index.html # Homepage
-├── style.css # Styling
-└── .github/
-└── workflows/
-└── deploy.yml # GitHub Actions workflow for auto-deployment
-
+* ✅ Learn Git basics: `init`, `add`, `commit`, `push`
+* ✅ Host a static website for free using GitHub Pages
+* ✅ Set up CI/CD with GitHub Actions for auto-deployment
 
 ---
 
-## 🎯 Goals
+## 🌐 Live Project
 
-- Learn Git basics (add, commit, push)
-- Host a static site using GitHub Pages
-- Set up CI/CD using GitHub Actions
-
----
-
-## 🌐 Live Site
-
-👉 [Click here to visit the portfolio](https://yourusername.github.io/your-repo-name/)  
-*(Update this link after deployment)*
+👉 [Click here to visit the live portfolio](https://tejeshkumargantyada.github.io/1-static-website-on-github-pages/)
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **HTML5 & CSS3**
-- **Git & GitHub**
-- **GitHub Pages**
-- **GitHub Actions**
+* HTML5 & CSS3
+* Git & GitHub
+* GitHub Pages
+* GitHub Actions
 
 ---
 
-## ⚙️ How It Works
+## 🧰 Folder Structure
 
-- You edit your HTML/CSS locally.
-- Push to the `main` branch.
-- GitHub Actions auto-deploys it using the `deploy.yml` workflow.
-- Your latest version is instantly live!
+```
+1-static-website-on-github-pages/
+├── index.html
+├── style.css
+├── README.md
+├── assets/
+│   └── screenshot.png  # Optional screenshot
+└── .github/
+    └── workflows/
+        └── deploy.yml  # GitHub Actions for auto-deploy
+```
 
 ---
 
-## 📦 Setup Instructions
+## 📸 Website Preview
+
+![Portfolio Screenshot](assets/screenshot.png)
+
+---
+
+## ⚙️ Step-by-Step Setup Instructions
+
+### ✅ Step 1: Clone the Repository
 
 ```bash
-# Clone the repo
 git clone https://github.com/TejeshKumarGantyada/1-static-website-on-github-pages.git
-
-# Move into project folder
 cd 1-static-website-on-github-pages
+```
 
-# Make changes → push → auto-deployed 🚀
+---
+
+### ✅ Step 2: Create/Edit Your Portfolio
+
+Edit the `index.html` and `style.css` files as you like.
+
+```bash
+# After making changes, run these:
+git add .
+git commit -m "Update portfolio content"
+```
+
+---
+
+### ✅ Step 3: Push Your Changes
+
+```bash
+git push origin main
+```
+
+GitHub Actions will automatically deploy your changes to GitHub Pages.
+
+---
+
+### ✅ Step 4: GitHub Actions Auto-Deploy
+
+The `.github/workflows/deploy.yml` file contains the automation logic. It:
+
+* Triggers on every push to the `main` branch
+* Publishes the latest version of your site to GitHub Pages
+
+---
+
+### ✅ Step 5: View Your Live Website
+
+Go to:
+
+```
+https://<your-username>.github.io/<repo-name>/
+```
+
+Example:
+
+```
+https://tejeshkumargantyada.github.io/1-static-website-on-github-pages/
+```
+
+---
+
+## 💬 Feedback & Suggestions
+
+Feel free to open an issue or reach out via [GitHub profile](https://github.com/TejeshKumarGantyada)!
+
+---
